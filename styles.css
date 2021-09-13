@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -10,4 +16,13 @@ body {
 
 li{
     display: inline;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+}
+
+ul {
+    padding: 0;
 }
